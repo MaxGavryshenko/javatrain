@@ -1,3 +1,5 @@
+package task1;
+
 public class DataTypes {
     public static void main(String[] args) {
         int myInt = 17, my2Int = 0b0101, my8Int = 0123, my16Int = 0x3FF;
