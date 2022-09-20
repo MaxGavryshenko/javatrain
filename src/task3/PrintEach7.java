@@ -9,7 +9,7 @@ public class PrintEach7 {
         Scanner sc = new Scanner(System.in);
         out.println("Enter integer number");
         int number = sc.nextInt();
-        for (int i = 0; i <= number; i += 7) {
+        for (int i = 7; i <= number; i += 7) {
             out.printf("%d ", i);
         }
     }
