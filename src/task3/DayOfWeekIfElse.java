@@ -24,7 +24,7 @@ public class DayOfWeekIfElse {
             } else {
                 System.out.println("Your choice is not correct, please choose correct value");
             }
-        } while (option > 7);
+        } while (option > 7 || option < 1);
     }
 }
 
