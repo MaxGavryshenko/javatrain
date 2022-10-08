@@ -1,11 +1,11 @@
 package task4;
 
 import static task4.Helpers.inputStringValue;
-import static task4.Helpers.setScannerMessage;
+import static task4.Helpers.setScannerStringMessage;
 
 public class task1String2Num {
     public static void main(String[] args) {
-        setScannerMessage("Enter positive integer or double");
+        setScannerStringMessage("Enter positive integer or double");
         String str = inputStringValue();
         if (str.matches("[0-9.,]+")) {
             double doub = Double.parseDouble(str.replace(",", "."));
