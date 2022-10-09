@@ -12,11 +12,11 @@ public class task4ValueInArray {
         for (int data: ARR) {
             if (data == val){
                 System.out.print(VALUE_EXISTS);
+                break;
             }
             else {
                 System.out.print(VALUE_NOT_EXISTS);
             }
-            break;
         }
     }
 }

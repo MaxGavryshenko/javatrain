@@ -1,6 +1,5 @@
 package task4;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Helpers {
@@ -10,23 +9,19 @@ public class Helpers {
 
 
     private static final Scanner sc = new Scanner(System.in);
-    public static int indexOfIntElementInArray(int[] arr, int value){
-        Arrays.sort(arr);
-        return Arrays.binarySearch(arr, value);
-    }
 
     public static int inputIntegerValue() {
-        System.out.printf(scannerIntMessage + "\n");
+        System.out.println(scannerIntMessage);
         return sc.nextInt();
     }
 
     public static String inputStringValue() {
-        System.out.printf(scannerStringMessage + "\n");
+        System.out.println(scannerStringMessage);
         return sc.next();
     }
 
     public static char inputCharValue() {
-        System.out.printf(scannerCharMessage + "\n");
+        System.out.println(scannerCharMessage);
         return sc.next().charAt(0);
     }
     public static void setScannerIntMessage(String scannerIntMessage) {
