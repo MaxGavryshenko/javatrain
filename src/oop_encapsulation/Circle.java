@@ -8,12 +8,12 @@ public class Circle {
         this.radius = radius;
     }
 
-    public static double circle_area_calc(int radius) {
-        Circle circle = new Circle(radius);
-        return circle.radius * circle.radius * P;
+    public double circle_area_calc() {
+        return this.radius * this.radius * PI;
     }
 
     public static void main(String[] args) {
-        System.out.println(circle_area_calc(3));
+        Circle circle = new Circle(3);
+        System.out.println(circle.circle_area_calc());
     }
 }

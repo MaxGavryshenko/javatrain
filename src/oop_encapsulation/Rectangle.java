@@ -9,12 +9,12 @@ public class Rectangle {
         this.width = width;
     }
 
-    public static int rectangleAreaCalc(int length, int width) {
-        Rectangle rect = new Rectangle(length, width);
-        return rect.length * rect.width;
+    public int rectangleAreaCalc() {
+        return this.length * this.width;
     }
 
     public static void main(String[] args) {
-        System.out.println(rectangleAreaCalc(5, 2));
+        Rectangle rect = new Rectangle(5, 2);
+        System.out.println(rect.rectangleAreaCalc());
     }
 }
