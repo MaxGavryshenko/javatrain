@@ -1,7 +1,7 @@
 package oop_encapsulation;
 
 public class Circle {
-    private static double P = 3.14;
+    private static final double PI = 3.14;
     private int radius;
 
     public Circle(int radius) {
