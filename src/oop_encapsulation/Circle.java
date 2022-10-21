@@ -8,7 +8,7 @@ public class Circle {
         this.radius = radius;
     }
 
-    public double circle_area_calc() {
+    public double circleAreaCalc() {
         return this.radius * this.radius * PI;
     }
 
