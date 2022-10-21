@@ -17,7 +17,7 @@ public class Point {
     }
 
     public double calculateDistanceToThePoint(Point point) {
-        return Math.sqrt((point.y - this.y) * (point.y - this.y) + (point.x - this.x) * (point.x - this.x));
+        return Math.sqrt(Math.pow((point.y - this.y), 2) + Math.pow((point.x - this.x), 2));
     }
 
     public static void main(String[] args) {
