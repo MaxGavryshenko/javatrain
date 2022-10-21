@@ -9,7 +9,7 @@ public class Line {
         this.point2 = point2;
     }
 
-    void parallel(Line line) {
+    public void parallel(Line line) {
         int p1 = this.point2.getX() - this.point1.getX();
         int p2 = this.point2.getY() - this.point1.getY();
         int q1 = line.point2.getX() - line.point1.getX();
