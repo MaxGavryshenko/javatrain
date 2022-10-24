@@ -1,4 +1,4 @@
-package oop_inheritance;
+package oop_inheritance.task1;
 
 public class Triangle extends Shape {
 

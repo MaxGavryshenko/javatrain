@@ -1,4 +1,4 @@
-package oop_inheritance;
+package oop_inheritance.task1;
 
 import static task4.Helpers.inputIntegerValue;
 import static task4.Helpers.setScannerIntMessage;
