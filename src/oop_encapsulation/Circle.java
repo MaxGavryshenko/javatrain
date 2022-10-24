@@ -9,11 +9,11 @@ public class Circle {
     }
 
     public double circleAreaCalc() {
-        return this.radius * this.radius * PI;
+        return Math.pow(this.radius, 2) * PI;
     }
 
     public static void main(String[] args) {
         Circle circle = new Circle(3);
-        System.out.println(circle.circle_area_calc());
+        System.out.println(circle.circleAreaCalc());
     }
 }
