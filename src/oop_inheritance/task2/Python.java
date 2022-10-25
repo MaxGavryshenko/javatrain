@@ -13,14 +13,6 @@ public class Python extends Animal {
         this.sleep = sleep;
     }
 
-    public static void main(String[] args) {
-        Python python = new Python("Shhhh", "Mouse", "Crawls", "don't sleep");
-        python.speak();
-        python.eat();
-        python.run();
-        python.sleep();
-    }
-
     @Override
     public void speak() {
         System.out.println(this.speak);

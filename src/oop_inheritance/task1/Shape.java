@@ -10,11 +10,7 @@ public abstract class Shape {
         return inputIntegerValue();
     }
 
-    public double getArea() {
-        return 0;
-    }
+    public abstract double getArea();
 
-    public double getPerimeter() {
-        return 0;
-    }
+    public abstract double getPerimeter();
 }

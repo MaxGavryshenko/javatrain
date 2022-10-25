@@ -12,14 +12,6 @@ public class Horse extends Animal {
         this.run = run;
         this.sleep = sleep;
     }
-//
-//    public static void main(String[] args) {
-//        Horse horse = new Horse("Igogo", "Grass", "Fast", "at night");
-//        horse.speak();
-//        horse.eat();
-//        horse.run();
-//        horse.sleep();
-//    }
 
     @Override
     public void speak() {

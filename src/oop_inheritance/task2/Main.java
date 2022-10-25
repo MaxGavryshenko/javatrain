@@ -7,9 +7,9 @@ public class Main {
     static Python python = new Python("Shhhh", "Mouse", "Crawls", "don't sleep");
 
     public static void main(String[] args) {
-        System.out.println(horse.toString());
-        System.out.println(lion.toString());
-        System.out.println(mouse.toString());
-        System.out.println(python.toString());
+        System.out.println(horse);
+        System.out.println(lion);
+        System.out.println(mouse);
+        System.out.println(python);
     }
 }

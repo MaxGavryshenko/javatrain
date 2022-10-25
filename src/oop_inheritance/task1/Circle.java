@@ -4,20 +4,9 @@ public class Circle extends Shape {
 
     private static final double PI = 3.14;
     private int radius;
-    private double area;
-
-    private double perimeter;
 
     public Circle(int radius) {
         this.radius = radius;
-    }
-
-    public static void main(String[] args) {
-        int r = setIntegerValue("Enter integer value of circle radius");
-        Circle circle = new Circle(r);
-        circle.area = circle.getArea();
-        circle.perimeter = circle.getPerimeter();
-        System.out.println(circle);
     }
 
     @Override
@@ -32,6 +21,6 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return "Circle " + "radius: " + radius + ", area: " + area + ", perimeter: " + perimeter;
+        return "Circle " + "radius: " + radius + ", area: " + this.getArea() + ", perimeter: " + this.getPerimeter();
     }
 }

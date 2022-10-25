@@ -12,13 +12,7 @@ public class Mouse extends Animal{
         this.run = run;
         this.sleep = sleep;
     }
-    public static void main(String[] args) {
-        Mouse mouse = new Mouse("Pipipi", "Cheese", "Fast", "at the day");
-        mouse.speak();
-        mouse.eat();
-        mouse.run();
-        mouse.sleep();
-    }
+
     @Override
     public void speak() {
         System.out.println(this.speak);

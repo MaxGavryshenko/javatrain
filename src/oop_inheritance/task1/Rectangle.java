@@ -4,18 +4,12 @@ public class Rectangle extends Shape {
 
     private int side1;
     private int side2;
-    private double area;
 
-    private double perimeter;
-
-    public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle();
-        rectangle.side1 = setIntegerValue("Enter integer length rectangle side 1");
-        rectangle.side2 = setIntegerValue("Enter integer length rectangle side 2");
-        rectangle.area = rectangle.getArea();
-        rectangle.perimeter = rectangle.getPerimeter();
-        System.out.println(rectangle);
+    public Rectangle(int side1, int side2) {
+        this.side1 = side1;
+        this.side2 = side2;
     }
+
     @Override
     public double getArea() {
         return side1 * side2;
@@ -28,6 +22,6 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return "Rectangle " + "area: " + (int) area + ", perimeter: " + (int) perimeter;
+        return "Rectangle " + "area: " + (int) this.getArea() + ", perimeter: " + (int) this.getPerimeter();
     }
 }

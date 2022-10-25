@@ -1,6 +1,6 @@
 package oop_inheritance.task3;
 
-public class Bedroom {
+public class Bedroom extends Room{
     private int length;
     private int height;
 
@@ -10,6 +10,6 @@ public class Bedroom {
     }
     
     public int getArea() {
-        return this.length * this.height;
+        return areaCalculation(this.length, this.height);
     }
 }

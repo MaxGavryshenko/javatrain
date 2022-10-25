@@ -1,15 +1,11 @@
 package oop_inheritance.task2;
 
 public abstract class Animal {
-    public void speak() {
-    }
+    public abstract void speak();
 
-    public void eat() {
-    }
+    public abstract void eat();
 
-    public void run() {
-    }
+    public abstract void run();
 
-    public void sleep() {
-    }
+    public abstract void sleep();
 }
