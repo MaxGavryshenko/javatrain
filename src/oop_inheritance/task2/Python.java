@@ -1,40 +1,24 @@
 package oop_inheritance.task2;
 
 public class Python extends Animal {
-    private String speak;
-    private String eat;
-    private String run;
-    private String sleep;
-
-    public Python(String speak, String eat, String run, String sleep) {
-        this.speak = speak;
-        this.eat = eat;
-        this.run = run;
-        this.sleep = sleep;
-    }
 
     @Override
     public void speak() {
-        System.out.println(this.speak);
+        System.out.println("Shhhh");
     }
 
     @Override
     public void eat() {
-        System.out.println(this.eat);
+        System.out.println("Mouse");
     }
 
     @Override
     public void run() {
-        System.out.println(this.run);
+        System.out.println("Crawls");
     }
 
     @Override
     public void sleep() {
-        System.out.println(this.sleep);
-    }
-
-    @Override
-    public String toString() {
-        return "Python " + "speak: " + speak + ", eat: " + eat + ", run: " + run + ", sleep: " + sleep;
+        System.out.println("don't sleep");
     }
 }
